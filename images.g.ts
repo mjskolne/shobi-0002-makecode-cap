@@ -1,4 +1,21 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="u#s@N`s9gp]=r-]6IXfl">mySprite</variable><variable type="KIND_SpriteKind" id="]N$==]a=({=tO;5I`O:C">Player</variable><variable type="KIND_SpriteKind" id="7OoI7Y28,,XH7HDw!nA[">Projectile</variable><variable type="KIND_SpriteKind" id="$%q6dKWfJm{y#;zPB=Sk">Food</variable><variable type="KIND_SpriteKind" id="GqEUXW^#jQ2p?-@SVZp@">Enemy</variable><variable type="KIND_SpriteKind" id="2zZYz6ccr|}bA@_{I1X@">test</variable></variables><block type="pxt-on-start" id="V;A7/S|[;q7lYm=t`G`r" x="0" y="0"><statement name="HANDLER"><block type="set_current_tilemap" id="=+DJ:I@$0Fbverk[+A@^"><value name="tilemap"><shadow type="tiles_tilemap_editor" id="~h/wXABURI_CZm*Ejgsf"><field name="tilemap">tilemap`crypt`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level2"}}</data></shadow></value><next><block type="gamesetbackgroundimage" id="Za)hnfG=r,A6GoSQ4^eE"><value name="img"><shadow type="background_image_picker" id="Q_yg@?ep[dQIPC.W5x]["><field name="img">img`
+// Auto-generated code. Do not edit.
+namespace myImages {
+
+    helpers._registerFactory("image", function(name: string) {
+        switch(helpers.stringTrim(name)) {
+            case "image1":
+            case "A":return img`
+. . 5 5 5 . . . 
+. 5 . . . 5 . . 
+5 . . . . . 5 . 
+5 . . . . . 5 . 
+5 5 5 5 5 5 5 . 
+5 . . . . . 5 . 
+5 . . . . . 5 . 
+5 . . . . . 5 . 
+`;
+            case "`J!Ielx5guB#:F]dcT|e":
+            case "worldmap":return img`
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
@@ -119,4 +136,43 @@
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
-`</field><data>{"commentRefs":[],"fieldData":{"img":"Q_yg@?ep[dQIPC.W5x]["}}</data></shadow><block type="screen_image_picker" id="A4Mm9GK,iqY)#7Q5kK`1"><field name="img">assets.image`LetterA`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image2"}}</data></block></value></block></next></block></statement></block></xml>
+`;
+            case "image2":
+            case "LetterA":return img`
+. 1 1 . . . . . . . . . . . . . 
+1 . . 1 . . . . . . . . . . . . 
+1 . . 1 . . . . . . . . . . . . 
+1 1 1 1 . . . . . . . . . . . . 
+1 . . 1 . . . . . . . . . . . . 
+1 . . 1 . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+        }
+        return null;
+    })
+
+    helpers._registerFactory("animation", function(name: string) {
+        switch(helpers.stringTrim(name)) {
+
+        }
+        return null;
+    })
+
+    helpers._registerFactory("song", function(name: string) {
+        switch(helpers.stringTrim(name)) {
+
+        }
+        return null;
+    })
+
+}
+// Auto-generated code. Do not edit.
