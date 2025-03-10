@@ -50,8 +50,8 @@ def changeBin():
             myWitchForward0
         """))
         sprites.destroy(mySpriteDec)
-        mySpriteBinA.say_text("WE  ESCAPED\\nAND BELIEVE")
-        mySpriteBinB.say_text("WE ARE ONLY\\n\"BEGINNING\"")
+        mySpriteBinA.say_text("WE ESCAPED\\n&  WE  ARE")
+        mySpriteBinB.say_text("ONLY JUST\\nBEGINNING")
         mySpriteBin1.say_text("")
         mySpriteBin2.say_text("")
         mySpriteBin4.say_text("")
